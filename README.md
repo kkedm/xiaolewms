@@ -227,7 +227,7 @@ docker-compose -f docker-compose.prod.yml up -d
 4. **访问系统**
 - Web端: http://localhost:3000
 - API文档: http://localhost:3001/api-docs
-- 默认账号: admin@xiaole.com / admin123456
+- 默认账号: admin / 123456
 
 ### 方式二：本地开发部署
 
@@ -506,8 +506,8 @@ JWT_REFRESH_EXPIRES_IN=7d
 ```env
 SYSTEM_NAME=小乐WMS
 SYSTEM_VERSION=1.0.3
-ADMIN_EMAIL=admin@xiaole.com
-ADMIN_PASSWORD=admin123456
+ADMIN_EMAIL=admin
+ADMIN_PASSWORD=123456
 ```
 
 ### AI配置
