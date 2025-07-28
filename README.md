@@ -8,11 +8,14 @@
 
 *让仓库管理更智能、更高效*
 
+**📢 开源说明：本项目开源后端服务和Web前端，提供完整的仓库管理解决方案**
+
 ---
 
 [![Version](https://img.shields.io/badge/version-1.0.3-blue.svg?style=for-the-badge)](https://github.com/kkedm/xiaolewms)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-kkedm/xiaolewms-black.svg?style=for-the-badge&logo=github)](https://github.com/kkedm/xiaolewms)
+[![Open Source](https://img.shields.io/badge/开源项目-后端+Web端-brightgreen.svg?style=for-the-badge)](https://github.com/kkedm/xiaolewms)
 
 [![Node.js](https://img.shields.io/badge/node.js-18+-green.svg?style=flat-square&logo=node.js)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/react-18+-blue.svg?style=flat-square&logo=react)](https://reactjs.org/)
@@ -32,31 +35,33 @@
 
 系统涵盖了仓库管理的完整业务流程，包括产品管理、库存管理、入库出库、数据分析、AI智能助手等核心功能。
 
+**🎯 开源范围**：本项目开源后端API服务和Web前端界面，移动端和桌面端作为完整解决方案的一部分提供参考。
+
 </div>
 
 ## 📚 目录结构
 
 ```
 xiaolewms/
-├── 📁 backend/              # 后端服务
+├── 📁 backend/              # 后端服务 (🔓 开源)
 │   ├── 📁 src/
 │   │   ├── 📁 controllers/   # 控制器
 │   │   ├── 📁 models/        # 数据模型
 │   │   ├── 📁 routes/        # 路由配置
 │   │   └── 📁 middleware/    # 中间件
 │   └── 📄 package.json
-├── 📁 xiaolewms/            # Web前端
+├── 📁 xiaolewms/            # Web前端 (🔓 开源)
 │   ├── 📁 src/
 │   │   ├── 📁 components/    # 组件
 │   │   ├── 📁 pages/         # 页面
 │   │   └── 📁 utils/         # 工具函数
 │   └── 📄 package.json
-├── 📁 xiaolewmsmobile/      # 移动端应用
+├── 📁 xiaolewmsmobile/      # 移动端应用 (📱 参考实现)
 │   ├── 📁 src/
 │   │   ├── 📁 screens/       # 页面
 │   │   └── 📁 components/    # 组件
 │   └── 📄 package.json
-├── 📁 xiaolewms-desktop/    # 桌面端应用
+├── 📁 xiaolewms-desktop/    # 桌面端应用 (🖥️ 参考实现)
 ├── 📁 docs/                 # 文档
 ├── 🐳 docker-compose.yml    # Docker配置
 └── 📄 README.md             # 项目说明
@@ -68,7 +73,7 @@ xiaolewms/
 
 | 🏗️ 多平台支持 | 🤖 AI智能助手 | 📊 实时数据分析 |
 |:---:|:---:|:---:|
-| Web端、移动端<br/>桌面端全覆盖 | 火山方舟AI集成<br/>智能对话分析 | 丰富图表<br/>统计功能 |
+| Web端(开源)、移动端<br/>桌面端全覆盖 | 火山方舟AI集成<br/>智能对话分析 | 丰富图表<br/>统计功能 |
 
 | 🔐 权限管理 | 📱 响应式设计 | 🐳 容器化部署 |
 |:---:|:---:|:---:|
@@ -89,9 +94,9 @@ xiaolewms/
 ```mermaid
 graph TB
     subgraph "客户端层"
-        A[🌐 Web前端<br/>React + TypeScript]
-        B[📱 移动端<br/>React Native + Expo]
-        C[🖥️ 桌面端<br/>Tauri + React]
+        A[🌐 Web前端 (开源)<br/>React + TypeScript]
+        B[📱 移动端 (参考)<br/>React Native + Expo]
+        C[🖥️ 桌面端 (参考)<br/>Tauri + React]
     end
     
     subgraph "API层"
@@ -197,7 +202,51 @@ graph TB
 
 </div>
 
+## 📸 产品演示
+
+<div align="center">
+
+### 🌐 Web端界面展示
+
+| 仪表盘概览 | 库存管理 |
+|:---:|:---:|
+| ![Web端1](demoimg/web端1.png) | ![Web端2](demoimg/web端2.png) |
+| *数据概览与实时监控* | *库存管理与统计分析* |
+
+### 📱 移动端界面展示
+
+| 登录界面 | 仪表盘 | 产品管理 |
+|:---:|:---:|:---:|
+| ![iOS APP1](demoimg/IOSAPP1.png) | ![iOS APP2](demoimg/IOSAPP2.png) | ![iOS APP3](demoimg/IOSAPP3.png) |
+| *简洁的登录界面* | *移动端仪表盘* | *产品信息管理* |
+
+| 库存查询 | 出入库管理 |
+|:---:|:---:|
+| ![iOS APP4](demoimg/IOSAPP4.png) | ![iOS APP5](demoimg/IOSAPP5.png) |
+| *实时库存查询* | *出入库操作* |
+
+### 🖥️ 桌面端界面展示
+
+| 主界面 | 数据分析 | 系统设置 |
+|:---:|:---:|:---:|
+| ![桌面端1](demoimg/桌面端1.png) | ![桌面端2](demoimg/桌面端2.png) | ![桌面端3](demoimg/桌面端3.png) |
+| *桌面端主界面* | *数据分析图表* | *系统配置管理* |
+
+---
+
+### ✨ 界面特色
+
+- 🎨 **现代化设计**：简洁美观的界面设计，符合现代审美
+- 📱 **响应式布局**：完美适配各种屏幕尺寸和设备
+- 🌈 **主题定制**：支持明暗主题切换，个性化体验
+- 🚀 **流畅交互**：优化的用户体验，操作简单直观
+- 📊 **数据可视化**：丰富的图表展示，数据一目了然
+
+</div>
+
 ## 🚀 快速开始
+
+> **📢 开源说明**：本项目开源后端服务和Web前端，移动端和桌面端代码作为完整解决方案的参考实现。
 
 ### 环境要求
 
@@ -227,7 +276,7 @@ docker-compose -f docker-compose.prod.yml up -d
 4. **访问系统**
 - Web端: http://localhost:3000
 - API文档: http://localhost:3001/api-docs
-- 默认账号: admin / 123456
+- 默认账号: admin@xiaole.com / admin123456
 
 ### 方式二：本地开发部署
 
@@ -270,7 +319,7 @@ npm run build
 npm run preview
 ```
 
-#### 3. 移动端部署
+#### 3. 移动端部署 (参考实现)
 
 ```bash
 cd xiaolewmsmobile
@@ -287,7 +336,7 @@ npm run android # Android
 npm run web     # Web
 ```
 
-#### 4. 桌面端部署
+#### 4. 桌面端部署 (参考实现)
 
 ```bash
 cd xiaolewms-desktop
@@ -506,8 +555,8 @@ JWT_REFRESH_EXPIRES_IN=7d
 ```env
 SYSTEM_NAME=小乐WMS
 SYSTEM_VERSION=1.0.3
-ADMIN_EMAIL=admin
-ADMIN_PASSWORD=123456
+ADMIN_EMAIL=admin@xiaole.com
+ADMIN_PASSWORD=admin123456
 ```
 
 ### AI配置
@@ -683,7 +732,7 @@ server {
 }
 ```
 
-### 移动端发布
+### 移动端发布 (参考实现)
 
 #### iOS发布
 ```bash
@@ -697,7 +746,7 @@ cd xiaolewmsmobile
 expo build:android
 ```
 
-### 桌面端发布
+### 桌面端发布 (参考实现)
 
 ```bash
 cd xiaolewms-desktop
