@@ -215,18 +215,6 @@ xiaolewms/
 | ![Web端1](demo/web端1.png) | ![Web端2](demo/web端2.png) |
 | *数据概览与实时监控* | *库存管理与统计分析* |
 
-### 📱 移动端界面展示
-
-| 登录界面 | 仪表盘 | 产品管理 |
-|:---:|:---:|:---:|
-| ![iOS APP1](demo/IOSAPP1.png) | ![iOS APP2](demo/IOSAPP2.png) | ![iOS APP3](demo/IOSAPP3.png) |
-| *简洁的登录界面* | *移动端仪表盘* | *产品信息管理* |
-
-| 库存查询 | 出入库管理 |
-|:---:|:---:|
-| ![iOS APP4](demo/IOSAPP4.png) | ![iOS APP5](demo/IOSAPP5.png) |
-| *实时库存查询* | *出入库操作* |
-
 ### 🖥️ 桌面端界面展示
 
 | 主界面 | 数据分析 | 系统设置 |
